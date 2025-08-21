@@ -18,5 +18,8 @@ public class Main {
 
           Pessoa pessoa3 = new Pessoa("Belchior", 1.72, 47, true);
           pessoa3.exibirDados2();
+          
+          Pessoa pessoa4 = new Pessoa("Simoes", 1.12, 45, false);
+          pessoa4.exibirDados2();
     }
 }
