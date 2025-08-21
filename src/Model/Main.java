@@ -13,8 +13,8 @@ public class Main {
 //        Pessoa pessoa1 = new Pessoa("Doe");
 //        pessoa1.exibirDados();
         
-//        Pessoa pessoa2 = new Pessoa();
-//        pessoa2.exibirAltura(1.70);
+        Pessoa pessoa2 = new Pessoa();
+        pessoa2.exibirAltura(1.70);
 
           Pessoa pessoa3 = new Pessoa("Belchior", 1.72, 47, true);
           pessoa3.exibirDados2();
