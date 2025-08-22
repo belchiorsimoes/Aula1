@@ -10,6 +10,10 @@ public class Pessoa {
     double altura; // para valores decimais
     int idade; //numeros inteiros
     boolean estudante; // valores logicos - true para verdadeiro e false para falso
+    String residencia;
+    String estadocivil; 
+    boolean trabalhador; 
+    int numerofilhos; 
 
     public Pessoa() {
     }
@@ -20,6 +24,14 @@ public class Pessoa {
         this.idade = idade;
         this.estudante = estudante;
     }
+    
+    public Pessoa(boolean trabalhador, String estadocivil, int numerofilhos, String residencia) {
+        this.trabalhador = trabalhador;
+        this.estadocivil = estadocivil;
+        this.numerofilhos = numerofilhos;
+        this.residencia = residencia;
+    }
+    
 
     public Pessoa(String nome) {
         this.nome = nome;
@@ -37,6 +49,12 @@ public class Pessoa {
         System.out.println(this.estudante);
     }
     
+    public void exibirDados3(){
+        System.out.println(this.trabalhador);
+        System.out.println(this.estadocivil);
+        System.out.println(this.numerofilhos);
+        System.out.println(this.residencia);
+    }
     // void - retorna qualquer coisa
     public void exibirAltura(double altura){
         // execucao

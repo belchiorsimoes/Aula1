@@ -21,5 +21,11 @@ public class Main {
           
           Pessoa pessoa4 = new Pessoa("Simoes", 1.12, 45, false);
           pessoa4.exibirDados2();
+          
+          Pessoa pessoa5 = new Pessoa(true,"casado",3,"Marracuene");
+          pessoa5.exibirDados3 ();
     }
 }
+
+
+    
